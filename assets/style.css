@@ -33,7 +33,7 @@ body {
   background-color: #fdbd70 ;
   border-radius: 20px;
   top: 360px;
-  left: 275px;
+  left: 280px;
   box-shadow: 6px 3px 10px #888888;
 }
 .green {
@@ -50,20 +50,51 @@ body {
   border-bottom-left-radius:  200px;
   border-bottom-right-radius:  200px;
   transform: rotate(48deg);
-/*  box-shadow: 1px 3px 20px #888888;*/
+  box-shadow: 3px 1px 4px #888888;
 }
-.green:before {
+.green::before {
   content: '';
   position: absolute;
-  top: -5px;
+  top: -17px;
   left: -20px;
   width: calc(50% + 28px);
-  height: calc(100% + 28px);
+  height: calc(110% + 30px);
   background: rgba(116,254,248,1);
-
 }
- /* top: 260px;
-  left: 228px;
-  background-color: #35C508;
-  width: 30px;
-  height: 30px;*/
+ .seed {
+  top: 50%;
+  left: 50%;
+  border: 5px solid black;
+  background: black;
+  width: 6px;
+  height: 6px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: -38px 1px 0 -4px black, 46px 20px 0 -4px black;
+}
+.seed::before {
+  transform: rotate(180deg);
+  top: 790%;
+  left: -700%;
+  border: 5px solid black;
+  background: black;
+  width: 6px;
+  height: 6px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: -38px 1px 0 -4px black, 46px 20px 0 -4px black;
+}
+ .seed::after {
+  transform: rotate(-20deg);
+  top: 800%;
+  left: 700%;
+  border: 5px solid black;
+  background: black;
+  width: 6px;
+  height: 6px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: -38px 1px 0 -4px black;
