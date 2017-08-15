@@ -1,0 +1,31 @@
+body {
+  background-color: #FF86FF;
+  text-align:center;  
+  height: 100%; 
+  margin: 0px;
+}
+#sandia{  
+  margin: 30px auto;
+  position: relative;
+  height: 600px;
+  width: 600px;
+}
+#sandia div{
+	position:absolute;
+}
+#sandia div::before, #sandia div::after {
+  content:'';
+  position:absolute;
+  display:block;
+}
+.circle {
+  z-index: 3;
+  width: 550px;
+  height: 550px;
+  background-color: #74FEF8;
+  border-radius:100%;
+  top: 10px;
+  left: 10px;
+  box-shadow: 10px 10px 5px #888888;
+
+}
