@@ -19,13 +19,20 @@ body {
   display:block;
 }
 .circle {
-  z-index: 3;
   width: 550px;
   height: 550px;
   background-color: #74FEF8;
   border-radius:100%;
   top: 10px;
   left: 10px;
-  box-shadow: 10px 10px 5px #888888;
-
+  box-shadow: 10px 10px 10px #888888;
+}
+.stick {
+  width: 20px;
+  height: 160px;
+  background-color: #fdbd70 ;
+  border-radius: 20px;
+  top: 360px;
+  left: 280px;
+  box-shadow: 6px 3px 10px #888888;
 }
